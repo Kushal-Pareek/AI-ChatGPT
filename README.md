@@ -1,24 +1,23 @@
-#Chat-GPT-Clone
+# Chat-GPT-Clone
 Welcome to Chat-GPT-Clone, a Multi-Functional MERN project powered by OpenAI API!
 
-##Project Overview
+## Project Overview
 Chat-GPT-Clone is a versatile application that incorporates various AI-driven functionalities such as text summarization, paragraph generation, chatbot interactions, JavaScript code conversion, and sci-fi image generation. This project serves as an excellent showcase of the capabilities of the OpenAI API.
 
-##Folder Structure
+## Folder Structure
 The project follows the following folder structure:
 
 backend/ // Backend server implementation client/ // Frontend client implementation
 
 The backend/ folder contains the server-side implementation, built with Node.js and Express.js. It handles API requests, interacts with the OpenAI API, and communicates with the database.
 The client/ folder contains the client-side implementation, built with React.js. It provides the user interface for interacting with the various functionalities of the application.
-##Prerequisites
+## Prerequisites
 Before running the application, make sure you have the following prerequisites installed on your system:
-
 Node.js
 MongoDB
-Installation
+## Installation
 Clone the repository:
-git clone https://github.com/manojvaishnav/Chat-Gpt-Clone.git
+git clone <github_repo_url>
 
 Navigate to the project root directory:
 cd Chat-Gpt-Clone
@@ -29,7 +28,7 @@ npm install
 cd ../client
 npm install
 
-##Configuration
+## Configuration
 To configure the application, create a .env file in the backend/ directory and add the following environment variables:
 
 OPENAI_API_KEY=
@@ -37,14 +36,14 @@ MONGO_URI=
 JWT_ACCESS_SECRET=
 JWT_REFRESH_TOKEN=
 
-##Add proxy
+## Add proxy
 To connect frontend with the backend add proxy: cd client
 go to packege.json
 add "proxy":"http://localhost:8000"
 
 Make sure to replace the placeholders with your own values.
 
-##Usage
+## Usage
 Start the backend server:
 cd backend
 npm start
